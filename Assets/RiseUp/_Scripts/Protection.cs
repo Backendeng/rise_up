@@ -22,7 +22,7 @@ public class Protection : MonoBehaviour
     {
         if(collision.collider.tag == "Obstacle")
         {
-            RemoveVelocity();
+            // RemoveVelocity();
         }
     }
 

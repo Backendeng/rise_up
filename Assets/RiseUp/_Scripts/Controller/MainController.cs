@@ -144,7 +144,7 @@ public class MainController : BaseController {
     public void UpdateUI()
     {
         startFrame.SetActive(gameState == GameState.START || (gameState == GameState.GAME_OVER && IsClassicMode()));
-        protection.gameObject.SetActive(IsPlaying() || gameState == GameState.LOADED);
+        // protection.gameObject.SetActive(IsPlaying() || gameState == GameState.LOADED);
         player.gameObject.SetActive(gameState != GameState.GUIDE && gameState != GameState.SHOP);
 
         guideFrame.SetActive(gameState == GameState.GUIDE);
@@ -290,7 +290,7 @@ public class MainController : BaseController {
         protection.transform.localPosition = Vector3.zero;
         ResetBackground(1);
         player.Reset();
-        protection.RemoveVelocity();
+        // protection.RemoveVelocity();
         spawnLevel = 1;
         passedLevel = 0;
     }
@@ -301,7 +301,7 @@ public class MainController : BaseController {
         protection.transform.localPosition = Vector3.zero;
         ResetBackground(currentLevel);
         player.Reset();
-        protection.RemoveVelocity();
+        // protection.RemoveVelocity();
         if (IsClassicMode())
         {
             classicController.ResetTimeScore();

@@ -39,7 +39,7 @@ public class ProtectionController : MonoBehaviour, IBeginDragHandler, IDragHandl
             newPos.y = Mathf.Clamp(newPos.y, -limitSize.y, limitSize.y);
 
             protection.rb.MovePosition(newPos);
-            protection.RemoveVelocity();
+            // protection.RemoveVelocity();
 
             if (newPos.x == -limitSize.x || newPos.x == limitSize.x || newPos.y == -limitSize.y || newPos.y == limitSize.y)
             {
@@ -57,7 +57,7 @@ public class ProtectionController : MonoBehaviour, IBeginDragHandler, IDragHandl
         if (protection.transform.position.x != newPos.x || protection.transform.position.y != newPos.y)
         {
             protection.rb.MovePosition(newPos);
-            protection.RemoveVelocity();
+            // protection.RemoveVelocity();
         }
     }
 
