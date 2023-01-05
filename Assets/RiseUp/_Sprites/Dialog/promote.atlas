@@ -1,0 +1,61 @@
+
+promote.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+dialog_background
+  rotate: false
+  xy: 1, 376
+  size: 613, 583
+  orig: 613, 583
+  offset: 0, 0
+  index: -1
+featureimg_background
+  rotate: false
+  xy: 1, 47
+  size: 539, 327
+  orig: 539, 327
+  offset: 0, 0
+  index: -1
+texture
+  rotate: false
+  xy: 1, 4
+  size: 266, 41
+  orig: 266, 41
+  offset: 0, 0
+  index: -1
+button_install
+  rotate: false
+  xy: 542, 291
+  size: 218, 83
+  orig: 218, 83
+  offset: 0, 0
+  index: -1
+button_later
+  rotate: false
+  xy: 542, 206
+  size: 218, 83
+  orig: 218, 83
+  offset: 0, 0
+  index: -1
+install_button
+  rotate: false
+  xy: 542, 141
+  size: 200, 63
+  orig: 200, 63
+  offset: 0, 0
+  index: -1
+play_button
+  rotate: false
+  xy: 542, 71
+  size: 176, 68
+  orig: 176, 68
+  offset: 0, 0
+  index: -1
+quit_button
+  rotate: false
+  xy: 542, 1
+  size: 176, 68
+  orig: 176, 68
+  offset: 0, 0
+  index: -1
