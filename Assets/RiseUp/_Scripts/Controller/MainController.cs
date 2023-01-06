@@ -43,7 +43,7 @@ public class MainController : BaseController {
 
     private void LoadAllObstacles()
     {
-        obstaclePrefabs = Resources.LoadAll<GroupObstacle>("GroupObstacles").ToList();
+        obstaclePrefabs = Resources.LoadAll<GroupObstacle>("GroupObstacleNew").ToList();
         obstaclePrefabs.Sort((x, y) => Utils.GetGroupObIndex(x.name).CompareTo(Utils.GetGroupObIndex(y.name)));
     }
 
